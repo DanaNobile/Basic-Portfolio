@@ -1,0 +1,59 @@
+/* Elements */
+
+head{
+    background-color: #4aaaa5;
+}
+header {
+    background-color: #ffffff;
+    border: #cccccc;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+ 
+}
+
+body {
+    background-color: #ffffff;
+    
+ }
+  
+ h1 {
+    color: #4aaaa5;
+ }
+  
+  p {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+footer {
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5
+}
+
+
+
+/* Classes */
+.wrapper {
+    width: 70%;
+    margin: auto;
+}
+
+
+.ConentBox {
+    background-color: #ffffff;
+    border: #dddddd;
+    width: 30%;
+    margin: auto;
+    position: relative;
+    width: 960px;
+}
+
+
+
+/* IDs */
+#relative {
+    width: 100%;
+    height: 100px;
+    background-color: lightgrey;
+    position: relative;
+    z-index: 0;
+ }
