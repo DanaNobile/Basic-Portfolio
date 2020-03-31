@@ -15,6 +15,11 @@ body {
     background-image: url("../images/geometric-leaves.png");  
  }
 
+ a {
+  color: #777777;
+  font-family: 'Georgia', Times, Times New Roman, serif; 
+  text-decoration: none; 
+ }
  h1 {
     color: white;
     font-size: 25px;
@@ -35,12 +40,19 @@ footer {
     border-top: 8px solid #4aaaa5;
     position: absolute;
     bottom: 0;
-    width: 100%; 
-    text-align: center; 
+    width: 100%;
+    height: 5%; 
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    padding: 5px;
+    margin-bottom: 0;
 }
 
 img {
     float: left;
+    margin-left: 100px;
+    margin-top: 30px;
 }
 
 
@@ -48,7 +60,7 @@ img {
 
 .wrapper {
     width: 960px;
-    background-color: white;
+    /* background-color:purple; */
     border: 10px #dddddd;
     padding: 10px;
     margin: 20px;
@@ -76,7 +88,7 @@ img {
     width: 150px;
     height: 35px;
     float: left;
-    margin-top: 6px;
+    margin-top: 0px;
     margin-left: 100px;
     text-align: center;
     padding: 10px;
@@ -90,12 +102,36 @@ img {
 }
 
 .links {
-margin-right: 20px;
+margin-right: 25px;
+margin-top: 6px;
 padding: 10px;
+color: #777777;
+font-size: 15px;
+text-decoration: none;
+word-spacing: 20px;
 }
 
-.conentbox {
+.aboutme {
+    background-color: white; 
+    width: 960px;
+    border: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.aboutmetitle {
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.aboutmetext{
     background-color: white;
+    font: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 30px;
+    margin-top: 30px;
+}
+/* .conentbox {
+    background-color: orange;
     width: 960px;
     border: 10px #dddddd;
     padding: 150px;
