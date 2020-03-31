@@ -7,21 +7,20 @@ header {
     font-family: 'Georgia', Times, Times New Roman, serif;
     position: relative;
     width: 100%;
- 
 }
 
 body {
-    background-color: #ffffff;
-    width: 960px;
-    background-image: url("paper.gif");
-    
+    width: 960px;  
  }
+
  h1 {
     color: white;
+    font-size: 24px;
  } 
 
  h2 {
     color: #4aaaa5;
+    font-size: 18px;
  }
   
   p {
@@ -34,9 +33,7 @@ footer {
     border-top: 8px solid #4aaaa5;
     position: absolute;
     bottom: 0;
-    width: 100%;
-
-    
+    width: 100%;  
 }
 
 img {
@@ -56,7 +53,7 @@ img {
 }
 
 .ConentBox {
-    background-color: #ffffff;
+    background-color: white;
     border: #dddddd;
     width: 960px;
     margin: auto;
@@ -86,3 +83,4 @@ img {
      right: 150px;
      bottom: 0px;
  }
+
