@@ -1,15 +1,5 @@
 /* Elements */
 
-
-/* header { */
-    /* background-color: #ffffff;
-    border: #cccccc;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    width: 100%;
-    display: flexbox;
-    flex-direction: row; 
-} */
-
 body {
     width: 960px;
     background-image: url("../images/geometric-leaves.png");  
@@ -20,6 +10,7 @@ body {
   font-family: 'Georgia', Times, Times New Roman, serif; 
   text-decoration: none; 
  }
+
  h1 {
     color: white;
     font-size: 25px;
@@ -49,21 +40,10 @@ footer {
     margin-bottom: 0;
 }
 
-/* img {
-    float: left;
-    margin-left: 100px;
-    margin-top: 30px;
-} */
-
-
-/* Classes */
+/* Homepage Classes */
 
 .wrapper {
     width: 960px;
-    /* background-color:purple; */
-    /* padding: 10px; */
-    /* margin: 20px; */
-    /* position: absolute; */
 }
 
 .menubar {
@@ -80,7 +60,7 @@ footer {
 .name {
     background-color: #4aaaa5;
     width: 150px;
-    height: 35px;
+    height: 40px;
     float: left;
     margin-top: 0px;
     margin-left: 100px;
@@ -106,7 +86,6 @@ word-spacing: 20px;
 
 .contentbox {
     background-color: white;
-    /* width: 960px; */
     margin-left: 110px;
     margin-right: 0px;
 }
@@ -121,40 +100,29 @@ word-spacing: 20px;
 padding-top: 20px;
 }
 
-.flexbox1 {
+.indexcontainer {
+margin-top: 20px;
 display: flex;
 flex-direction: row;
 }
+
 .selfimage {
 }
 
 .aboutmetext{
-    line-height: 25px;
-    padding: 15px;  
+    line-height:25px;
+    padding: 10px;  
 }
 
 .conentbox {
     background-color: white;
     width: 960px;
-    border: 10px #dddddd;
+    border: 15px #4d1313;
     padding: 150px;
     margin: 30px;
 }
 
-/* IDs */
-
-#relative {
-    width: 100%;
-    height: 50px;
-    position: relative;
-    z-index: 0;
-    
- }
-
- #absolute {
-     width: 20%;
-     position: absolute;
-     right: 150px;
-     bottom: 0px;
- }
-
+/* Portfolio Classes */
+.portfoliocontainer{
+    background-color: hotpink;
+}
