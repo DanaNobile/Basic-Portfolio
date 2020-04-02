@@ -1,27 +1,75 @@
 <!DOCTYPE html>
 <html>
- <head>
-  <title>Dana Nobile's Portfolio</title>
+       <head>
+       <title>Dana Nobile's Portfolio</title>
 
-   <!-- Link to CSS -->
-  <link rel="stylesheet" href ="assets/css/style.css">      
- </head>      
+<!-- Link to CSS --> 
+       <link rel= "stylesheet" href ="Assets/css/reset.css">
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+       <link rel= "stylesheet" href ="Assets/css/style.css"> 
+       </head>      
 
- <!-- Body -->
-<body>
+<div class= "wrapper">  
 
- <!-- Navigation -->
-       <header class= "Header">
-              <div class ="Name">   
-                     <h1>Dana Nobile</h1>
-              </div>    
-              <div class= "Navigation">
-                     <a href="index.html">About</a>
-                     <a href="portfolio.html">Portfolio</a>
-                     <a href="contact.html">Contact</a>
-              </div>
-       
+<!-- Body -->
+       <body>
+
+<!-- Menu Bar -->
+       <header class= "menubar">
+              <div class ="name"> 
+              <h1>Dana Nobile</h1>
+              </div> 
+
+       <!-- Navigation -->
+                     <div class= "navigation">
+                            <div class= "links">
+                                   <a href="index.html">About</a>
+                                   <a href="portfolio.html">Portfolio</a>
+                                   <a href="contact.html">Contact</a>
+                            </div>
+                     </div>    
        </header>
 
-    </body>
-    </html>
+<!-- Conent Box -->
+<div class= "contentbox">    
+       <div class= "aboutmetitlebar">
+              <div class= "aboutmetitletext">
+                     <h2>Contact</h2>
+                     <hr>
+              </div>
+       </div>
+
+  <!-- Contact Box -->
+  <!-- Reference Source:  -->
+  <form>
+       <div class="form-group">
+         <label for="exampleInputEmail1">Name</label>
+         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="John Smith">
+       </div>
+       <div class="form-group">
+         <label for="exampleInputPassword1">Email</label>
+         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Example@gmail.com">
+       </div>
+       <div class="form-group">
+              <label for="exampleInputMessage">Message</label>
+              <input type="message" class="form-control" id="exampleInputMessage" placeholder="Write Your Message Here">
+            </div>
+       
+              <button type="submit" class="button">Submit</button>
+       
+     </form>
+  
+
+
+
+
+
+</div>
+<footer>
+       <p>Copyright @DanaNobile 2020</p>      
+</footer>
+
+       </body>
+<!-- wrapper close -->
+</div>  
+</html>
