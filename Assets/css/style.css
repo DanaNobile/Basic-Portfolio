@@ -21,18 +21,6 @@ body {
     font-size: 24px;
  }
  
- h3 {
-    color: white;
-    font-family: 'Georgia', Times, Times New Roman, serif; 
-    font-size: 18px;
-    background-color:#4aaaa5;
-    text-align: center;
-    /* height: 30px; */
-    padding-top: 20px;
-    padding-bottom: 20px;
-    position: relative;
-
- }
   p {
     font: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -98,9 +86,10 @@ footer {
 }
 
 .contentbox {
-    background-color: hotpink;
+    background-color: #ffffff;
     margin-left: 110px;
     margin-right: 0px;
+    border: #dddddd 25px;
 }
 
 .aboutmetitlebar {
@@ -115,21 +104,39 @@ footer {
 
 .indexcontainer {
 margin-top: 20px;
-display: flex;
-flex-direction: row;
+/* display: flex;
+flex-direction: row; */
 background-color: white;
 }
 
-.selfimage {
+.selfimage { 
+    display: ;
+    float: left;
+    padding-right: 30px;
 }
 
 .aboutmetext{
     line-height:25px;
-    padding: 10px;  
+    /* clear: right; */
+      
 }
 
 
 
+/* Portfolio Elements */
+
+h3 {
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif; 
+    font-size: 18px;
+    background-color:#4aaaa5;
+    text-align: center;
+    /* height: 30px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* position: relative;
+    display: inline-flexbox; */
+ }
 /* Portfolio Classes */
 
 .portfolicontainer1 {
@@ -140,6 +147,7 @@ justify-content: space-around;
 /* justify-content: center; */
 background-color: greenyellow;
 width: 100%;
+/* position: absolute; */
 }
 
 .portfoliocontainer2{
@@ -158,11 +166,41 @@ background-color:orange;
     background-color: peachpuff;
     }
 
-.portbox1{
-
+.textbar{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    z-index: 999;
+    top: 75%;
 }
-.portbox2{
 
+.portimage{ 
+    position: absolute;
+    /* z-index: 999; */
+}
+
+/* .textbar2{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    z-index: 999;
+    top: 75%;
+}
+
+.portimage2{ 
+    position: absolute;
+    z-index: 999; */
+
+.portbox1{
+    background-color: rgb(7, 35, 44);
+    /* position: relative; */
+}   
+
+
+.portbox2{
+    background-color: magenta;
+    position: relative;
+    text-align: center;
 }
 .portbox3{
 
