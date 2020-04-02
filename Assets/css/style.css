@@ -139,31 +139,39 @@ h3 {
  }
 /* Portfolio Classes */
 
-.portfolicontainer1 {
+.portfolicontainer{
 margin-top: 20px;
 display: flex;
 flex-direction: row;
+flex-wrap: wrap;
 justify-content: space-around;
+height: 250px;
 /* justify-content: center; */
 background-color: greenyellow;
 width: 100%;
 /* position: absolute; */
 }
 
-.portfoliocontainer2{
+.portfolicontainer2{
 margin-top: 20px;
 display: flex;
 flex-direction: row;
+flex-wrap: wrap;
 justify-content: space-around;
+height: 250px;
+width: 100%;
 background-color:orange;
-}
+} 
 
-.portfoliocontainer3{
-    margin-top: 20px;
-    display: flex;
-    flex-direction: row;
-    margin-left: 65px;
-    background-color: peachpuff;
+.portfolicontainer3{
+margin-top: 20px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+height: 250px;
+width: 100%;
+background-color: blue;
     }
 
 .textbar{
@@ -179,29 +187,28 @@ background-color:orange;
     /* z-index: 999; */
 }
 
-/* .textbar2{
-    position: relative;
-    display: inline-block;
-    width: 300px;
-    z-index: 999;
-    top: 75%;
-}
 
-.portimage2{ 
-    position: absolute;
-    z-index: 999; */
 
 .portbox1{
-    background-color: rgb(7, 35, 44);
-    /* position: relative; */
+    /* background-color: rgb(7, 35, 44); */
+    /* height: 150px */
+    position: relative;
 }   
 
-
 .portbox2{
-    background-color: magenta;
+    /* background-color: magenta; */
     position: relative;
-    text-align: center;
+    /* text-align: center; */
 }
 .portbox3{
-
+    /* background-color: black; */
+    position: relative;
 }
+
+.portbox4{
+position: relative
+}
+
+.portbox5{
+    position: relative;
+    }
