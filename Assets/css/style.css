@@ -217,20 +217,44 @@ s}
 
 
 
- .contactform{
+ .form{
+    width: 100%;
     margin-top: 20px;
     font: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;  
+    background-color: mediumorchid;
+    /* justify-content: center; */
  }
  
 .button {
     background-color: #4aaaa5;
     color: white;
+    height: 30px;
+    width: 100px;
+    text-align: center;
 }
 
-#exampleInputMessage{
+.messagebox{
     height: 250px;
     padding: 0px;
     padding-top: 0px;
 }
 
+.formcontent {
+    margin-top: 200px;
+
+}
+#Message {
+    height: 200px;
+    width: 90%;
+}
+
+#name {
+    width: 90%;
+    height: 25px;
+}
+
+#email{
+    width: 90%;
+    height: 25px;
+}
