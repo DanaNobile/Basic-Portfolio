@@ -90,6 +90,7 @@ footer {
     margin-left: 110px;
     margin-right: 0px;
     border: #dddddd 25px;
+    /* height: 600px; */
 }
 
 .aboutmetitlebar {
@@ -218,12 +219,12 @@ s}
 
 
  .form{
-    width: 100%;
+    /* width: 100%;
     margin-top: 20px;
     font: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;  
     background-color: mediumorchid;
-    /* justify-content: center; */
+    justify-content: center; */
  }
  
 .button {
@@ -241,20 +242,23 @@ s}
 }
 
 .formcontent {
-    margin-top: 200px;
-
+    margin: 20px;
+    margin-top: 20px;
+    font: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;  
+    /* background-color: mediumvioletred; */
 }
 #Message {
     height: 200px;
-    width: 90%;
+    width: 100%;
 }
 
 #name {
-    width: 90%;
+    width: 100%;
     height: 25px;
 }
 
 #email{
-    width: 90%;
+    width: 100%;
     height: 25px;
 }
