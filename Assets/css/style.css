@@ -214,18 +214,23 @@ s}
     }
 
     /* Contact  */
-    
- form {
- margin-top: 20px;
- font: #777777;
- font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;    
- }  
+
+
+
+ .contactform{
+    margin-top: 20px;
+    font: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;  
+ }
  
 .button {
     background-color: #4aaaa5;
+    color: white;
 }
 
-.buttonsettings {
-   color: blueviolet; 
+#exampleInputMessage{
+    height: 250px;
+    padding: 0px;
+    padding-top: 0px;
 }
-    
+
