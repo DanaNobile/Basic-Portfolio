@@ -174,7 +174,7 @@ s}
     /* display: inline-block; */
     width: 300px;
     z-index: 999;
-    top: 75%;
+    top: 62%;
 }
 
 
@@ -218,14 +218,7 @@ s}
 
 
 
- .form{
-    /* width: 100%;
-    margin-top: 20px;
-    font: #777777;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;  
-    background-color: mediumorchid;
-    justify-content: center; */
- }
+ 
  
 .button {
     background-color: #4aaaa5;
