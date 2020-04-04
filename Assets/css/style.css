@@ -6,10 +6,10 @@ body {
  }
 
  a {
-  color: #777777;
-  font-family: 'Georgia', Times, Times New Roman, serif; 
-  text-decoration: none; 
- }
+    color: #777777;
+    font-family: 'Georgia', Times, Times New Roman, serif; 
+    text-decoration: none; 
+    }
 
  h1 {
     color: white;
@@ -24,6 +24,10 @@ body {
   p {
     font: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+a:hover {
+    color:#4aaaa5  
 }
 
 footer {
@@ -44,7 +48,6 @@ footer {
 
 .wrapper {
     width: 960px;
-    /* background-color: purple; */
 }
 
 .menubar {
@@ -89,8 +92,7 @@ footer {
     background-color: #ffffff;
     margin-left: 110px;
     margin-right: 0px;
-    border: #dddddd 25px;
-    /* height: 600px; */
+    border: #dddddd 55px;
 }
 
 .aboutmetitlebar {
@@ -104,10 +106,8 @@ footer {
 }
 
 .indexcontainer {
-margin-top: 20px;
-/* display: flex;
-flex-direction: row; */
-background-color: white;
+    margin-top: 20px;
+    background-color: white;
 }
 
 .selfimage { 
@@ -118,8 +118,6 @@ background-color: white;
 .aboutmetext{
     line-height:25px;
 }
-
-
 
 /* Portfolio Elements */
 
@@ -137,41 +135,36 @@ h3 {
 /* Portfolio Classes */
 
 .portfolicontainer{
-margin-top: 20px;
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: space-around;
-height: 250px;
-/* background-color: greenyellow; */
-width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 250px;
+    width: 100%;
 }
 
 .portfolicontainer2{
-margin-top: 20px;
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: space-around;
-height: 250px;
-width: 100%;
-/* background-color:orange; */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 250px;
+    width: 100%;
 } 
 
 .portfolicontainer3{
-margin-top: 20px;
-display: flex;
-flex-direction: row;
-/* justify-content: space-around; */
-justify-content: flex-start;
-height: 250px;
-width: 100%;
-/* background-color: blue; */
-s}
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 250px;
+    width: 100%;
+}
 
 .textbar{
     position: relative;
-    /* display: inline-block; */
     width: 300px;
     z-index: 999;
     top: 62%;
@@ -180,52 +173,40 @@ s}
 
 .portimage{ 
     position: absolute;
-    /* z-index: 999; */
 }
 
 .portbox1{
     margin-top: -50px;
-    /* background-color: rgb(7, 35, 44); */
-    /* height: 150px */
-    /* position: relative; */
-
 }   
 
 .portbox2{
     margin-top: -50px;
-    /* background-color: magenta; */
-    /* position: relative; */
-    /* text-align: center; */
 }
 .portbox3{
     margin-top: -50px;
-    /* background-color: black; */
-    /* position: relative; */
 }
 
 .portbox4{
     margin-top: -50px;
-/* position: relative */
 }
 
 .portbox5{
-    /* position: relative; */
     margin-left: 65px;
     margin-top: -50px;
-    }
+}
 
     /* Contact  */
 
-
-
- 
- 
 .button {
     background-color: #4aaaa5;
     color: white;
     height: 30px;
     width: 100px;
     text-align: center;
+}
+
+.button:hover{
+    background-color: darkslategray;
 }
 
 .messagebox{
@@ -238,8 +219,7 @@ s}
     margin: 20px;
     margin-top: 20px;
     font: #777777;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;  
-    /* background-color: mediumvioletred; */
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
 }
 #Message {
     height: 200px;
